@@ -1,8 +1,10 @@
 package response.loginResponse;
 
-import javax.annotation.Generated;
+
 import java.util.HashMap;
 import java.util.Map;
+
+import javax.annotation.processing.Generated;
 
     @Generated("jsonschema2pojo")
     public class LoginResponse {
