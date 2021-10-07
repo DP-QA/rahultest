@@ -3,13 +3,13 @@
 <suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [BDD Test Suite]" parallel="tests">
   <test thread-count="1" name="Login and Update Profile Test(failed)" parallel="tests">
     <classes>
-      <class name="MyRunner.TestRunner">
+      <class name="Runner.TestRunner">
         <methods>
           <include name="feature" invocation-numbers="0"/>
           <include name="tearDownClass"/>
           <include name="setUpClass"/>
         </methods>
-      </class> <!-- MyRunner.TestRunner -->
+      </class> <!-- Runner.TestRunner -->
     </classes>
   </test> <!-- Login and Update Profile Test(failed) -->
 </suite> <!-- Failed suite [BDD Test Suite] -->

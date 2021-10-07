@@ -1,4 +1,4 @@
-package MyRunner;
+package Runner;
 
 
 import org.testng.annotations.AfterClass;
@@ -13,8 +13,8 @@ import cucumber.api.testng.TestNGCucumberRunner;
 
 
 @CucumberOptions(
-        features = "src/main/java/Features",
-        glue = {"stepDefinitions"},
+        features = "classpath:features",
+        glue = {"StepDefinitions"},
         tags = {"~@Ignore"},
         format = {
                 "pretty",
